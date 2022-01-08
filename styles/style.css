@@ -1,6 +1,6 @@
 html {
     color: white;
-    font-size: 10px; 
+    font-size: 1vw; 
     font-family: "Open Sans", sans-serif;
     background-color: rgb(22, 22, 22);
 }
@@ -24,8 +24,9 @@ a {
     color: inherit;
     text-decoration: none;
 }
-a:hover {
-    color: yellow;
+header a:hover {
+    color: rgb(22, 22, 22);
+    text-shadow: 1px 1px rgb(24, 202, 0);
 }
 .change:hover {
     color:aqua;
@@ -38,8 +39,12 @@ nav {
     top: 47%;
     right: 3%;
 }
-li {
+nav li {
     list-style-type: none;
+}
+nav a:hover {
+    color: rgb(22, 22, 22);
+    text-shadow: 1px 1px rgb(255, 255, 255);
 }
 /* MAIN */
 main {
@@ -52,36 +57,14 @@ h2 {
 h3 {
     font-size: 2vw;
 }
-/*
-.bottom {
-    display: flex;
-    position: relative;
-    margin: 0 auto;
-    width: 80%;
-    height: 50vh;
-    background-color: rgb(0, 78, 72);
-    border-radius: 100px;
-    box-shadow: 0 0 5px 2px rgb(0, 0, 0);
+main a:hover { 
+    color: aqua;
+    color: white;
+    text-shadow: 1px 1px white;
 }
-
-.middle {
-    display: flex;
-    position: relative;
-    margin: auto;
-    width: 95%;
-    height: 85%;
-    background-color: rgb(0, 175, 161);
-    border-radius: 50px;
-    box-shadow: 0 0 5px 2px rgb(0, 0, 0);
+.self {
+    float: right;
+    margin-left: 10%;
+    width: 50%;
+    height: 50%;
 }
-
-.top {
-    position: relative;
-    margin: auto;
-    width: 95%;
-    height: 80%;
-    background-color: rgb(0, 255, 238);
-    border-radius: 25px;
-    box-shadow: 0 0 5px 2px rgb(0, 0, 0);
-}
-*/
