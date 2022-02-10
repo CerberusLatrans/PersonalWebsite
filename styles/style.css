@@ -68,3 +68,8 @@ main a:hover {
     width: 50%;
     height: 50%;
 }
+
+/* Map Selector*/
+label {
+  font-size: 3vw;
+}
